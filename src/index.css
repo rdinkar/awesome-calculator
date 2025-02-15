@@ -222,12 +222,31 @@ select:disabled {
   flex: 1;
   border: none;
   outline: none;
-  -webkit-appearance: textfield;
+  font-size: 18px;
+  font-weight: 700;
+  color: #252525;
+  -webkit-appearance: none;
   -moz-appearance: textfield;
-  appearance: textfield;
+  appearance: none;
+  /* For Firefox */
+  -moz-appearance: none;
+  /* For Chrome */
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 }
 
 .function-chain-parameters .input-container .output-value {
+  padding: 8px 12px;
+}
+
+.function-chain-parameters .input-container .input-value-wrapper {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 700;
+  visibility: hidden;
   padding: 8px 12px;
 }
 
