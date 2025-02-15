@@ -2,6 +2,8 @@
 
 A dynamic function chain calculator built with React and TypeScript. This application allows users to create a chain of mathematical functions and visualizes how values flow through the chain.
 
+[Try it online](https://rdinkar.github.io/awesome-calculator)
+
 ## Features
 
 - Interactive function chain visualization
