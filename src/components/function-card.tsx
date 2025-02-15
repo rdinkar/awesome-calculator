@@ -42,7 +42,7 @@ export default function FunctionCard({
           ))}
         </select>
       </div>
-      <div className="disp-flex justify-space-between">
+      <div className="disp-flex justify-space-between m-t-5">
         <div className="disp-flex gap-1 align-center">
           <img
             src={ConnectionPointIcon}
